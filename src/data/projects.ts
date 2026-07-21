@@ -1,37 +1,62 @@
 export const projects = [
   {
-    title: "Containerized Application Platform",
+    id: 1,
+    title: "Containerized Web Platform",
+
+    description:
+      "Deployment of a complete web application using Docker, Kubernetes and CI/CD automation.",
+
+    challenge:
+      "Deploy a scalable application while automating the delivery pipeline.",
+
+    solution:
+      "Designed a containerized architecture using Docker, Kubernetes and GitHub Actions.",
+
     technologies: [
       "Docker",
       "Kubernetes",
       "GitHub Actions",
-      "CI/CD"
+      "NGINX"
     ],
-    description:
-      "Designed and deployed a containerized application while implementing a CI/CD pipeline. This project strengthened my understanding of automation, orchestration, teamwork and project management.",
+
+    skills: [
+      "Docker",
+      "Kubernetes",
+      "CI/CD",
+      "Team Leadership",
+      "Project Management"
+    ],
+
+    github: "#",
   },
 
   {
-    title: "Edge Computing Simulation",
+    id: 2,
+
+    title: "EdgeYAFS Simulation",
+
+    description:
+      "Simulation of service placement in Edge–Fog–Cloud environments using YAFS.",
+
+    challenge:
+      "Reduce latency while optimizing energy consumption.",
+
+    solution:
+      "Implemented adaptive placement algorithms and compared deployment strategies.",
+
     technologies: [
       "Python",
       "YAFS",
-      "Cloud",
-      "Edge Computing"
+      "NetworkX"
     ],
-    description:
-      "Studied service placement strategies in Edge–Cloud infrastructures to evaluate latency, energy consumption and cloud costs.",
-  },
 
-  {
-    title: "Magazine Management Platform",
-    technologies: [
-      "Flask",
-      "PostgreSQL",
-      "HTML",
-      "CSS"
+    skills: [
+      "Cloud",
+      "Edge Computing",
+      "Simulation",
+      "Optimization"
     ],
-    description:
-      "Developed a complete web application with authentication, database management and dynamic content generation.",
+
+    github: "#",
   },
 ];

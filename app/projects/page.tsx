@@ -1,24 +1,40 @@
 import Navbar from "@/components/Navbar";
 import Container from "@/components/Container";
+import ProjectCard from "@/components/ProjectCard";
+import { projects } from "@/data/projects";
 
 export default function ProjectsPage() {
   return (
     <>
       <Navbar />
 
-      <section className="min-h-screen bg-slate-950 pt-32 text-white">
+      <main className="min-h-screen bg-slate-950 pt-32 pb-20 text-white">
+
         <Container>
 
           <h1 className="text-5xl font-bold">
-            Projects
+            Featured Projects
           </h1>
 
-          <p className="mt-6 text-slate-400">
-            Some projects I've worked on during my studies.
+          <p className="mt-6 max-w-3xl text-lg text-slate-400">
+            Projects that allowed me to strengthen my skills in Cloud,
+            DevOps, automation and distributed systems.
           </p>
 
+          <div className="mt-16 space-y-10">
+
+            {projects.map((project) => (
+              <ProjectCard
+                key={project.id}
+                {...project}
+              />
+            ))}
+
+          </div>
+
         </Container>
-      </section>
+
+      </main>
     </>
   );
 }
