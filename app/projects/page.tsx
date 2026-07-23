@@ -13,7 +13,7 @@ export default function ProjectsPage() {
         <Container>
 
           <h1 className="text-5xl font-bold">
-            Featured Projects
+            Featured Projects  
           </h1>
 
           <p className="mt-6 max-w-3xl text-lg text-slate-400">
