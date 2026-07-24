@@ -1,38 +1,42 @@
-import Button from "@/components/Button";
-import Container from "@/components/Container";
 import Link from "next/link";
+import Button from "@/components/Button";
+import ButtonLink from "@/components/ButtonLink";
+import Container from "@/components/Container";
 
 export default function Contact() {
   return (
     <section
       id="contact"
-      className="border-t border-slate-800 bg-slate-950 py-32"
+      className="bg-slate-950 border-t border-slate-800 py-28"
     >
       <Container>
 
-        <div className="rounded-3xl border border-slate-800 bg-slate-900 p-16">
+        {/* Logo */}
+        <Link
+          href="/"
+          className="inline-block text-3xl font-bold tracking-tight text-white transition hover:opacity-80"
+        >
+          <span className="text-violet-400">M</span>aïssa Saad
+        </Link>
 
-          <h2 className="text-5xl font-bold text-white">
-            Let's build something together.
-          </h2>
+        <h2 className="mt-10 text-5xl font-bold text-white">
+          Let's build something together.
+        </h2>
 
-          <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-400">
-            I'm currently looking for a Cloud & DevOps apprenticeship
-            starting in September 2026.
-            If you're looking for someone curious, adaptable and eager to
-            contribute, I'd be happy to connect.
-          </p>
+        <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
+          I'm currently looking for a Cloud & DevOps apprenticeship starting in
+          September 2026. If you think my profile matches your team, I'd be happy
+          to discuss it.
+        </p>
 
-          <div className="mt-10">
+        <div className="mt-10 flex flex-wrap gap-4">
+          <ButtonLink href="/contact">
+            Contact Me
+          </ButtonLink>
 
-            <Link href="/contact">
-                <Button>
-                    Contact Me
-                </Button>
-            </Link>
-
-          </div>
-
+          <ButtonLink href="/cv.pdf">
+            Download CV
+          </ButtonLink>
         </div>
 
       </Container>

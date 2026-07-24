@@ -1,7 +1,6 @@
-import Button from "@/components/Button";
 import Container from "@/components/Container";
-import Link from "next/link";
-
+import Button from "@/components/Button";
+import ButtonLink from "@/components/ButtonLink";
 
 export default function Hero() {
   return (
@@ -30,17 +29,17 @@ export default function Hero() {
 
           <div className="mt-10 flex flex-wrap gap-4">
 
-            <Link href="/projects">
-            <Button>
-                View Projects
-            </Button>
-            </Link>
+            <ButtonLink href="/projects">
+              View Projects
+            </ButtonLink>
 
-            <Link href="/cv">
-            <Button variant="secondary">
-                Download CV
-            </Button>
-            </Link>
+            <ButtonLink
+              href="/cv.pdf"
+              variant="secondary"
+              external
+            >
+              Download CV
+            </ButtonLink>
 
           </div>
 

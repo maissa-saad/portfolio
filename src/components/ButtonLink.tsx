@@ -1,16 +1,19 @@
+import Link from "next/link";
 import { ReactNode } from "react";
 
-type ButtonProps = {
+type ButtonLinkProps = {
   children: ReactNode;
+  href: string;
   variant?: "primary" | "secondary";
-  onClick?: () => void;
+  external?: boolean;
 };
 
-export default function Button({
+export default function ButtonLink({
   children,
+  href,
   variant = "primary",
-  onClick,
-}: ButtonProps) {
+  external = false,
+}: ButtonLinkProps) {
   const base =
     "inline-block rounded-xl px-6 py-3 font-medium transition-all duration-300";
 
@@ -22,13 +25,25 @@ export default function Button({
       "border border-violet-500 text-violet-300 hover:bg-violet-500/10",
   };
 
+  if (external) {
+    return (
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={`${base} ${variants[variant]}`}
+      >
+        {children}
+      </a>
+    );
+  }
+
   return (
-    <button
-      type="button"
-      onClick={onClick}
+    <Link
+      href={href}
       className={`${base} ${variants[variant]}`}
     >
       {children}
-    </button>
+    </Link>
   );
 }
