@@ -6,6 +6,8 @@ type ButtonLinkProps = {
   href: string;
   variant?: "primary" | "secondary";
   external?: boolean;
+  target?: "_blank" | "_self";
+  rel?: string;
 };
 
 export default function ButtonLink({
@@ -13,6 +15,8 @@ export default function ButtonLink({
   href,
   variant = "primary",
   external = false,
+  target,
+  rel,
 }: ButtonLinkProps) {
   const base =
     "inline-block rounded-xl px-6 py-3 font-medium transition-all duration-300";
@@ -29,8 +33,8 @@ export default function ButtonLink({
     return (
       <a
         href={href}
-        target="_blank"
-        rel="noopener noreferrer"
+        target={target}
+        rel={rel}
         className={`${base} ${variants[variant]}`}
       >
         {children}

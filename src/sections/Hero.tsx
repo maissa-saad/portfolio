@@ -35,6 +35,8 @@ export default function Hero() {
 
             <ButtonLink
               href="/cv.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               variant="secondary"
               external
             >
