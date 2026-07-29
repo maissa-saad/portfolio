@@ -13,13 +13,15 @@ export default function ProjectsPage() {
         <Container>
 
           <h1 className="text-5xl font-bold">
-            Featured Projects  
+            Featured Projects
           </h1>
 
           <p className="mt-6 max-w-3xl text-lg text-slate-400">
-            Projects that allowed me to strengthen my skills in Cloud,
-            DevOps, automation and distributed systems.
+            A selection of academic and personal projects covering
+            Cloud, DevOps, automation, software architecture and
+            distributed systems.
           </p>
+
 
           <div className="mt-16 space-y-10">
 
