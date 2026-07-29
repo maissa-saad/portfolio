@@ -59,4 +59,34 @@ export const projects = [
 
     github: "#",
   },
+  {
+    id: 3,
+
+    title: "Backpack Hero",
+
+    description:
+      "Implementation of a simplified rogue-like game inspired by Backpack Hero. The project focuses on object-oriented design, turn-based combat and inventory management with interactive equipment.",
+
+    challenge:
+      "Design a complex game system with multiple interacting entities while applying object-oriented programming principles.",
+
+    solution:
+      "Developed a modular architecture using Java, MVC pattern and object-oriented concepts to manage characters, equipment, combat mechanics and inventory interactions.",
+
+    technologies: [
+      "Java",
+      "Object-Oriented Programming",
+      "MVC",
+      "GUI"
+    ],
+
+    skills: [
+      "Software Design",
+      "Object-Oriented Programming",
+      "Algorithmic Thinking",
+      "Application Architecture"
+    ],
+
+    github: "#",
+  },
 ];
