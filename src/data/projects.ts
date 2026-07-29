@@ -89,4 +89,36 @@ export const projects = [
 
     github: "#",
   },
+  {
+    id: 4,
+
+    title: "QuadTree Image Compression",
+
+    description:
+      "Development of an image compression codec using QuadTree structures to encode and decode grayscale PGM images into a custom binary QTC format.",
+
+    challenge:
+      "Design an efficient compression algorithm capable of reducing image size while managing recursive data structures and binary file formats.",
+
+    solution:
+      "Implemented a QuadTree-based codec in C with image segmentation, compression, decompression, filtering and reconstruction capabilities.",
+
+    technologies: [
+      "C",
+      "QuadTree",
+      "Data Structures",
+      "Binary File Processing",
+      "Makefile"
+    ],
+
+    skills: [
+      "Algorithm Design",
+      "Memory Management",
+      "Low-Level Programming",
+      "Data Structures",
+      "Software Engineering"
+    ],
+
+    github: "#",
+  },
 ];
