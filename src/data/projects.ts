@@ -153,4 +153,36 @@ export const projects = [
 
     github: "#",
   },
+  {
+    id: 6,
+
+    title: "Cascadia Board Game",
+
+    description:
+      "Implementation of the Cascadia board game in Java with multiple game modes, graphical interface and scalable architecture supporting different tile systems.",
+
+    challenge:
+      "Design a maintainable game architecture capable of handling complex rules, multiple gameplay modes and evolving features.",
+
+    solution:
+      "Developed a modular Java application using object-oriented design principles, interfaces and MVC-inspired architecture to separate game logic, data management and user interfaces.",
+
+    technologies: [
+      "Java",
+      "Object-Oriented Programming",
+      "MVC Architecture",
+      "Java GUI",
+      "Data Structures"
+    ],
+
+    skills: [
+      "Software Architecture",
+      "Design Patterns",
+      "Object-Oriented Design",
+      "Team Collaboration",
+      "Problem Solving"
+    ],
+
+    github: "#",
+  },
 ];
