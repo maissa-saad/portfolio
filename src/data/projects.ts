@@ -121,4 +121,36 @@ export const projects = [
 
     github: "#",
   },
+  {
+    id: 5,
+
+    title: "Database Web Application",
+
+    description:
+      "Design and development of a web application backed by a PostgreSQL database, covering database modeling, implementation and user interaction.",
+
+    challenge:
+      "Design a structured database from a client specification and build an application able to interact efficiently with stored data.",
+
+    solution:
+      "Created an entity-relationship model, implemented the relational database in PostgreSQL and developed a Flask application connected through psycopg2.",
+
+    technologies: [
+      "PostgreSQL",
+      "Python",
+      "Flask",
+      "SQL",
+      "psycopg2"
+    ],
+
+    skills: [
+      "Database Design",
+      "SQL Querying",
+      "Backend Development",
+      "Data Modeling",
+      "Web Application Development"
+    ],
+
+    github: "#",
+  },
 ];
