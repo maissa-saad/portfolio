@@ -185,4 +185,36 @@ export const projects = [
 
     github: "#",
   },
+  {
+    id: 7,
+
+    title: "TPC Compiler",
+
+    description:
+      "Development of a compiler for the TPC programming language, including lexical and syntax analysis, semantic verification and assembly code generation.",
+
+    challenge:
+      "Build a complete compilation pipeline capable of analyzing source code, validating semantics and translating programs into assembly instructions.",
+
+    solution:
+      "Implemented a compiler using Flex and Bison with symbol table management, abstract syntax tree traversal and x86-64 assembly generation.",
+
+    technologies: [
+      "C",
+      "Flex",
+      "Bison",
+      "Assembly",
+      "Compiler Design"
+    ],
+
+    skills: [
+      "Language Processing",
+      "Semantic Analysis",
+      "Code Generation",
+      "Memory Management",
+      "Low-Level Programming"
+    ],
+
+    github: "#",
+  },
 ];
