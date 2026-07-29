@@ -2,6 +2,7 @@ export const projects = [
   {
     id: 1,
     title: "Containerized Web Platform",
+    year: 2026,
 
     description:
       "Deployment of a complete web application using Docker, Kubernetes and CI/CD automation.",
@@ -26,14 +27,12 @@ export const projects = [
       "Team Leadership",
       "Project Management"
     ],
-
-    github: "#",
   },
 
   {
     id: 2,
-
     title: "EdgeYAFS Simulation",
+    year: 2025,
 
     description:
       "Simulation of service placement in Edge–Fog–Cloud environments using YAFS.",
@@ -56,139 +55,12 @@ export const projects = [
       "Simulation",
       "Optimization"
     ],
-
-    github: "#",
   },
+
   {
     id: 3,
-
-    title: "Backpack Hero",
-
-    description:
-      "Implementation of a simplified rogue-like game inspired by Backpack Hero. The project focuses on object-oriented design, turn-based combat and inventory management with interactive equipment.",
-
-    challenge:
-      "Design a complex game system with multiple interacting entities while applying object-oriented programming principles.",
-
-    solution:
-      "Developed a modular architecture using Java, MVC pattern and object-oriented concepts to manage characters, equipment, combat mechanics and inventory interactions.",
-
-    technologies: [
-      "Java",
-      "Object-Oriented Programming",
-      "MVC",
-      "GUI"
-    ],
-
-    skills: [
-      "Software Design",
-      "Object-Oriented Programming",
-      "Algorithmic Thinking",
-      "Application Architecture"
-    ],
-
-    github: "#",
-  },
-  {
-    id: 4,
-
-    title: "QuadTree Image Compression",
-
-    description:
-      "Development of an image compression codec using QuadTree structures to encode and decode grayscale PGM images into a custom binary QTC format.",
-
-    challenge:
-      "Design an efficient compression algorithm capable of reducing image size while managing recursive data structures and binary file formats.",
-
-    solution:
-      "Implemented a QuadTree-based codec in C with image segmentation, compression, decompression, filtering and reconstruction capabilities.",
-
-    technologies: [
-      "C",
-      "QuadTree",
-      "Data Structures",
-      "Binary File Processing",
-      "Makefile"
-    ],
-
-    skills: [
-      "Algorithm Design",
-      "Memory Management",
-      "Low-Level Programming",
-      "Data Structures",
-      "Software Engineering"
-    ],
-
-    github: "#",
-  },
-  {
-    id: 5,
-
-    title: "Database Web Application",
-
-    description:
-      "Design and development of a web application backed by a PostgreSQL database, covering database modeling, implementation and user interaction.",
-
-    challenge:
-      "Design a structured database from a client specification and build an application able to interact efficiently with stored data.",
-
-    solution:
-      "Created an entity-relationship model, implemented the relational database in PostgreSQL and developed a Flask application connected through psycopg2.",
-
-    technologies: [
-      "PostgreSQL",
-      "Python",
-      "Flask",
-      "SQL",
-      "psycopg2"
-    ],
-
-    skills: [
-      "Database Design",
-      "SQL Querying",
-      "Backend Development",
-      "Data Modeling",
-      "Web Application Development"
-    ],
-
-    github: "#",
-  },
-  {
-    id: 6,
-
-    title: "Cascadia Board Game",
-
-    description:
-      "Implementation of the Cascadia board game in Java with multiple game modes, graphical interface and scalable architecture supporting different tile systems.",
-
-    challenge:
-      "Design a maintainable game architecture capable of handling complex rules, multiple gameplay modes and evolving features.",
-
-    solution:
-      "Developed a modular Java application using object-oriented design principles, interfaces and MVC-inspired architecture to separate game logic, data management and user interfaces.",
-
-    technologies: [
-      "Java",
-      "Object-Oriented Programming",
-      "MVC Architecture",
-      "Java GUI",
-      "Data Structures"
-    ],
-
-    skills: [
-      "Software Architecture",
-      "Design Patterns",
-      "Object-Oriented Design",
-      "Team Collaboration",
-      "Problem Solving"
-    ],
-
-    github: "#",
-  },
-  {
-    id: 7,
-
     title: "TPC Compiler",
+    year: 2024,
 
     description:
       "Development of a compiler for the TPC programming language, including lexical and syntax analysis, semantic verification and assembly code generation.",
@@ -214,7 +86,127 @@ export const projects = [
       "Memory Management",
       "Low-Level Programming"
     ],
+  },
 
-    github: "#",
+  {
+    id: 4,
+    title: "Cascadia Board Game",
+    year: 2024,
+
+    description:
+      "Implementation of the Cascadia board game in Java with multiple game modes, graphical interface and scalable architecture supporting different tile systems.",
+
+    challenge:
+      "Design a maintainable game architecture capable of handling complex rules, multiple gameplay modes and evolving features.",
+
+    solution:
+      "Developed a modular Java application using object-oriented design principles, interfaces and MVC-inspired architecture to separate game logic, data management and user interfaces.",
+
+    technologies: [
+      "Java",
+      "Object-Oriented Programming",
+      "MVC Architecture",
+      "Java GUI",
+      "Data Structures"
+    ],
+
+    skills: [
+      "Software Architecture",
+      "Design Patterns",
+      "Object-Oriented Design",
+      "Team Collaboration",
+      "Problem Solving"
+    ],
+  },
+
+  {
+    id: 5,
+    title: "Database Web Application",
+    year: 2023,
+
+    description:
+      "Design and development of a web application backed by a PostgreSQL database, covering database modeling, implementation and user interaction.",
+
+    challenge:
+      "Design a structured database from a client specification and build an application able to interact efficiently with stored data.",
+
+    solution:
+      "Created an entity-relationship model, implemented the relational database in PostgreSQL and developed a Flask application connected through psycopg2.",
+
+    technologies: [
+      "PostgreSQL",
+      "Python",
+      "Flask",
+      "SQL",
+      "psycopg2"
+    ],
+
+    skills: [
+      "Database Design",
+      "SQL Querying",
+      "Backend Development",
+      "Data Modeling",
+      "Web Application Development"
+    ],
+  },
+
+  {
+    id: 6,
+    title: "QuadTree Image Compression",
+    year: 2025,
+
+    description:
+      "Development of an image compression codec using QuadTree structures to encode and decode grayscale PGM images into a custom binary QTC format.",
+
+    challenge:
+      "Design an efficient compression algorithm capable of reducing image size while managing recursive data structures and binary file formats.",
+
+    solution:
+      "Implemented a QuadTree-based codec in C with image segmentation, compression, decompression, filtering and reconstruction capabilities.",
+
+    technologies: [
+      "C",
+      "QuadTree",
+      "Data Structures",
+      "Binary File Processing",
+      "Makefile"
+    ],
+
+    skills: [
+      "Algorithm Design",
+      "Memory Management",
+      "Low-Level Programming",
+      "Data Structures",
+      "Software Engineering"
+    ],
+  },
+
+  {
+    id: 7,
+    title: "Backpack Hero",
+    year: 2025,
+
+    description:
+      "Implementation of a simplified rogue-like game inspired by Backpack Hero. The project focuses on object-oriented design, turn-based combat and inventory management with interactive equipment.",
+
+    challenge:
+      "Design a complex game system with multiple interacting entities while applying object-oriented programming principles.",
+
+    solution:
+      "Developed a modular architecture using Java, MVC pattern and object-oriented concepts to manage characters, equipment, combat mechanics and inventory interactions.",
+
+    technologies: [
+      "Java",
+      "Object-Oriented Programming",
+      "MVC",
+      "GUI"
+    ],
+
+    skills: [
+      "Software Design",
+      "Object-Oriented Programming",
+      "Algorithmic Thinking",
+      "Application Architecture"
+    ],
   },
 ];
