@@ -13,3 +13,6 @@ jobs:
 
       - name: dire bonjour
         run: echo "bonjour"
+
+      - name: dire CI en cours
+        run: echo "CI en cours"
