@@ -1,5 +1,4 @@
 import Container from "@/components/Container";
-import Button from "@/components/Button";
 import ButtonLink from "@/components/ButtonLink";
 
 export default function Hero() {
@@ -21,7 +20,7 @@ export default function Hero() {
           </h2>
 
           <p className="mt-8 max-w-3xl text-lg leading-9 text-slate-300">
-            Master's student in Cloud & DevOps at Sorbonne University.
+            Master&apos;s student in Cloud & DevOps at Sorbonne University.
             I enjoy designing infrastructures, automating deployments,
             and understanding how technologies work together to build
             scalable, reliable and maintainable systems.

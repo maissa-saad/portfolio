@@ -14,7 +14,7 @@ export default function AboutPage() {
           </h1>
 
           <p className="mt-8 max-w-3xl text-lg leading-9 text-slate-300">
-            I'm currently pursuing a Master's degree in Cloud & DevOps at
+            I&apos;m currently pursuing a Master&apos;s degree in Cloud & DevOps at
             Sorbonne University.
 
             What attracts me to DevOps is its ability to connect every part of a

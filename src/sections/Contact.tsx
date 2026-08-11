@@ -14,9 +14,9 @@ export default function Contact() {
         </h2>
 
         <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
-          I'm currently looking for a Cloud & DevOps apprenticeship starting in
+          I&apos;m currently looking for a Cloud & DevOps apprenticeship starting in
           September 2026. If you think my profile could be a good fit for your
-          team, I'd be happy to discuss any opportunity.
+          team, I&apos;d be happy to discuss any opportunity.
         </p>
 
         <div className="mt-10 flex flex-wrap gap-4">

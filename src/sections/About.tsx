@@ -15,7 +15,7 @@ export default function About() {
         <div className="mt-10 max-w-4xl space-y-6 text-lg leading-8 text-gray-600">
 
           <p>
-            I am currently pursuing a Master's degree in Cloud & DevOps at
+            I am currently pursuing a Master&apos;s degree in Cloud & DevOps at
             Sorbonne University.
           </p>
 

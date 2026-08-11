@@ -14,7 +14,7 @@ export default function ContactPage() {
           </h1>
 
           <p className="mt-6 max-w-2xl text-xl leading-9 text-slate-400">
-            I'm currently looking for a Cloud & DevOps apprenticeship starting
+            I&apos;m currently looking for a Cloud & DevOps apprenticeship starting
             in September 2026. Feel free to contact me if you would like to
             discuss an opportunity.
           </p>
