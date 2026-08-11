@@ -33,3 +33,6 @@ jobs:
 
       - name: créer une image docker
         run: docker build -t ghcr.io/${{ github.repository }}:${{ github.sha }} .
+
+      - name: push l'image créer dans ghcr
+        run: docker push ghcr.io/${{ github.repository }}:${{ github.sha }} 
