@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: portfolio
-          image: ghcr.io/maissa-saad/portfolio:latest
+          image: ghcr.io/maissa-saad/portfolio:eff1e83338449fd4ea1f1408d8941de81126c288
           ports:
             - containerPort: 3000
