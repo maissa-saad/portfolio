@@ -6,27 +6,21 @@ export default function SkillsPage() {
   return (
     <>
       <Navbar />
-
       <main className="min-h-screen bg-slate-950 pt-32 pb-20 text-white">
         <Container>
-
           <h1 className="text-6xl font-extrabold">
             Skills
           </h1>
-
           <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-400">
             Technologies and tools I use to design, automate and maintain
             reliable cloud infrastructures.
           </p>
-
           <div className="mt-16 grid gap-8">
-
             <SkillCategory
               emoji="☁️"
               title="Cloud Platforms"
               skills={["Azure"]}
             />
-
             <SkillCategory
               emoji="🐳"
               title="Containers & Orchestration"
@@ -35,7 +29,6 @@ export default function SkillsPage() {
                 "Kubernetes",
               ]}
             />
-
             <SkillCategory
               emoji="⚙️"
               title="DevOps & Automation"
@@ -46,7 +39,6 @@ export default function SkillsPage() {
                 "Ansible",
               ]}
             />
-
             <SkillCategory
               emoji="🖥️"
               title="Operating Systems"
@@ -56,7 +48,6 @@ export default function SkillsPage() {
                 "Bash",
               ]}
             />
-
             <SkillCategory
               emoji="💻"
               title="Programming"
@@ -68,7 +59,6 @@ export default function SkillsPage() {
                 "JavaScript",
               ]}
             />
-
             <SkillCategory
               emoji="🌐"
               title="Networking"
@@ -81,7 +71,6 @@ export default function SkillsPage() {
                 "OSPF",
               ]}
             />
-
             <SkillCategory
               emoji="🗄️"
               title="Databases"
@@ -89,9 +78,7 @@ export default function SkillsPage() {
                 "PostgreSQL",
               ]}
             />
-
           </div>
-
         </Container>
       </main>
     </>
