@@ -72,9 +72,13 @@ export default function ContactPage() {
                 <p className="mt-2 text-xl">
                   +33 7 60 01 77 33
                 </p>
+
               </div>
+
             </div>
+
           </div>
+
         </Container>
       </main>
     </>
