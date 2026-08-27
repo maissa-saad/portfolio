@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Container from "@/components/Container";
+
 export default function ContactPage() {
   return (
     <>
@@ -72,11 +73,8 @@ export default function ContactPage() {
                   +33 7 60 01 77 33
                 </p>
               </div>
-
             </div>
-
           </div>
-
         </Container>
       </main>
     </>
