@@ -74,9 +74,7 @@ export default function ContactPage() {
                 </p>
 
               </div>
-
             </div>
-
           </div>
 
         </Container>
