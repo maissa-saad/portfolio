@@ -1,5 +1,7 @@
 import Container from "@/components/Container";
 
+
+
 export default function CVPage() {
   return (
     <main className="min-h-screen bg-slate-950 text-white py-24">
