@@ -3,16 +3,12 @@ import Container from "@/components/Container";
 import ProjectCard from "@/components/ProjectCard";
 import { projects } from "@/data/projects";
 
-
-
 export default function ProjectsPage() {
   return (
     <>
       <Navbar />
       <main className="min-h-screen bg-slate-950 pt-32 pb-20 text-white">
-
         <Container>
-
           <h1 className="text-5xl font-bold">
             Featured Projects
           </h1>
