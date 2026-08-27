@@ -73,9 +73,7 @@ export default function ContactPage() {
                   +33 7 60 01 77 33
                 </p>
               </div>
-
             </div>
-
           </div>
 
         </Container>
