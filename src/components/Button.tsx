@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 
+
 type ButtonProps = {
   children: ReactNode;
   variant?: "primary" | "secondary";
@@ -22,6 +23,7 @@ export default function Button({
       "border border-violet-500 text-violet-300 hover:bg-violet-500/10",
   };
 
+  
   return (
     <button
       type="button"
